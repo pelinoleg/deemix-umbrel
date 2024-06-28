@@ -1,0 +1,28 @@
+manifestVersion: 1
+id: deemix
+name: Deemix
+tagline: Automated Music Downloader
+icon: https://svgshare.com/i/17gP.svg
+category: media
+version: "1.0.0"
+port: 6595
+description: >-
+  A Docker container for Deemix, allowing automated download of music from Deezer.
+
+developer: Pelin Oleg
+website: https://github.com/pelinoleg/deemix-umbrel
+submitter: Pelin Oleg
+submission: https://github.com/pelinoleg/deemix-umbrel
+repo: https://github.com/pelinoleg/deemix-umbrel
+support: https://github.com/pelinoleg/deemix-umbrel/issues
+
+gallery:
+  - https://amamosradio.com/wp-content/uploads/2023/05/novo-link-deemix.jpg
+  - https://64.media.tumblr.com/034718255f63050bd761e3ddf2c6ff92/755caaf12da79335-5a/s1280x1920/90fd5c3ff5d03ddb90e5894295785de2e2fc9abd.png
+
+releaseNotes: >-
+  Initial release of Deemix on Umbrel.
+dependencies: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""

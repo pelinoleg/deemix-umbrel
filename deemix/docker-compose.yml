@@ -1,0 +1,21 @@
+version: '3.7'
+
+	  
+services:
+  resilio-sync:
+    image: registry.gitlab.com/bockiii/deemix-docker
+    container_name: Deemix
+    restart: always
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - UMASK_SET=022
+      - DEEMIX_SINGLE_USER=true
+    volumes:
+      - /home/umbrel/umbrel/my-configs/deemix-config:/config
+      - /home/umbrel/umbrel/data/storage/Deemix/:/downloads
+    ports:
+      - 6595:6595
+
+
+
